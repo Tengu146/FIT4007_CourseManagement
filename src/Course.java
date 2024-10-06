@@ -16,6 +16,8 @@ public class Course {
         this.endDate = endDate;
     }
 
+    public Course() {
+    }
     // Getter và setter
 
     public int getCourseId() {
@@ -64,5 +66,16 @@ public class Course {
 
     public void setEndDate(int endDate) {
         this.endDate = endDate;
+    }
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "courseId=" + courseId +
+                ", courseName='" + courseName + '\'' +
+                ", instructor='" + instructor + '\'' +
+                ", startDate=" + startDate +
+                ", endDate=" + endDate +
+                '}';
     }
 }
