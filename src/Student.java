@@ -1,5 +1,5 @@
 public class Student {
-    private String studenID;
+    private String studentId;
     private String name;
 
     public Student(String studentId, String name) {
@@ -14,5 +14,11 @@ public class Student {
     public String getName() {
         return name;
     }
-
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentId='" + studentId + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
