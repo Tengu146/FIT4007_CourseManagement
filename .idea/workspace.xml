@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2e2a4df4-f37c-4f3c-ac5a-1f3f0430d197" name="Changes" comment=" viet Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Course_Management/CourseManagementSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Course_Management/CourseManagementSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Course_Management/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Course_Management/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CourseManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CourseManagementSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +52,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-<<<<<<< HEAD
+
     &quot;last_opened_file_path&quot;: &quot;C:/VJET_Y2/BTL/FIT4007_CourseManagement&quot;,
-=======
-<<<<<<< HEAD
+
+
     &quot;last_opened_file_path&quot;: &quot;D:/LTHDT/FIT4007_CourseManagement&quot;,
-=======
+
     &quot;last_opened_file_path&quot;: &quot;C:/VJET_Y2/VJET_HDT/BTL/FIT4007_CourseManagement&quot;,
->>>>>>> f0352b43cabe3eb1b0d6ee8f1c2e44644bf2f540
->>>>>>> c4f3f6a0f1b3e7c51a0005fd09c214248ff11154
+
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -71,8 +69,6 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-<<<<<<< HEAD
-=======
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -81,7 +77,6 @@
       </set>
     </attachedChunks>
   </component>
->>>>>>> f0352b43cabe3eb1b0d6ee8f1c2e44644bf2f540
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

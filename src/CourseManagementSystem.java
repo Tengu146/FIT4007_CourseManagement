@@ -1,11 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class CourseManagementSystem {
     private List<Course> courseList;
     private List<Student> studentList;
     private List<Teacher> teacherList;
-
+    Scanner scanner = new Scanner(System.in);
     public CourseManagementSystem() {
         this.courseList = new ArrayList<>();
         this.studentList = new ArrayList<>();
@@ -106,4 +107,6 @@ public class CourseManagementSystem {
             }
         }
     }
+
+
 }
