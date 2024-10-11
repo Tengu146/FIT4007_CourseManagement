@@ -1,81 +1,54 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Course {
     private int courseId;
     private String courseName;
-    private String instructor;
-    private String description;
-    private int startDate;
-    private int endDate;
+    private String instructor; // Tên giảng viên của khóa học
+    private List<Student> studentList; // Danh sách sinh viên đã ghi danh
 
     // Constructor
-    public Course(int courseId, String courseName, String instructor, String description, int startDate, int endDate) {
+    public Course(int courseId, String courseName) {
         this.courseId = courseId;
         this.courseName = courseName;
-        this.instructor = instructor;
-        this.description = description;
-        this.startDate = startDate;
-        this.endDate = endDate;
+        this.studentList = new ArrayList<>(); // Khởi tạo danh sách sinh viên
     }
 
     public Course() {
     }
-    // Getter và setter
 
+    // Getter cho ID khóa học
     public int getCourseId() {
         return courseId;
     }
 
-    public void setCourseId(int courseId) {
-        this.courseId = courseId;
-    }
-
+    // Getter cho tên khóa học
     public String getCourseName() {
         return courseName;
     }
 
-    public void setCourseName(String courseName) {
-        this.courseName = courseName;
-    }
-
+    // Getter cho tên giảng viên
     public String getInstructor() {
         return instructor;
     }
 
+    // Setter cho tên giảng viên
     public void setInstructor(String instructor) {
         this.instructor = instructor;
     }
 
-    public String getDescription() {
-        return description;
+    // Thêm sinh viên vào danh sách của khóa học
+    public void addStudent(Student student) {
+        studentList.add(student);
     }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public int getStartDate() {
-        return startDate;
-    }
-
-    public void setStartDate(int startDate) {
-        this.startDate = startDate;
-    }
-
-    public int getEndDate() {
-        return endDate;
-    }
-
-    public void setEndDate(int endDate) {
-        this.endDate = endDate;
+    // Lấy danh sách sinh viên đã ghi danh
+    public List<Student> getStudentList() {
+        return studentList;
     }
 
     @Override
     public String toString() {
-        return "Course{" +
-                "courseId=" + courseId +
-                ", courseName='" + courseName + '\'' +
-                ", instructor='" + instructor + '\'' +
-                ", startDate=" + startDate +
-                ", endDate=" + endDate +
-                '}';
+        return "Course ID: " + courseId + ", Course Name: " + courseName + ", Instructor: " + instructor;
     }
 }

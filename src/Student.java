@@ -1,18 +1,28 @@
 public class Student {
-    private String studenID;
-    private String name;
+    private String studentID;
+    private String studentName;
 
-    public Student(String studentId, String name) {
-        this.studentId = studentId;
-        this.name = name;
+    // Constructor
+    public Student(String studentID, String studentName) {
+        this.studentID = studentID;
+        this.studentName = studentName;
     }
 
-    public String getStudentId() {
-        return studentId;
+    public Student() {
     }
 
-    public String getName() {
-        return name;
+    // Getter cho ID sinh viên
+    public String getStudentID() {
+        return studentID;
     }
 
+    // Getter cho tên sinh viên
+    public String getStudentName() {
+        return studentName;
+    }
+
+    @Override
+    public String toString() {
+        return "Student ID: " + studentID + ", Student Name: " + studentName;
+    }
 }
