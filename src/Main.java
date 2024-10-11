@@ -22,19 +22,19 @@ public class Main {
 
             switch (choice) {
                 case 1:
-                    themKhoaHoc(scanner, courseManagementSystem);
+                    addCourse(scanner, courseManagementSystem);
                     break;
                 case 2:
-                    themSinhVienVaoKhoaHoc(scanner, courseManagementSystem);
+                    addStudent(scanner, courseManagementSystem);
                     break;
                 case 3:
-                    themGiaoVien(scanner, courseManagementSystem);
+                    addTeacher(scanner, courseManagementSystem);
                     break;
                 case 4:
-                    phanCongGiaoVienChoKhoaHoc(scanner, courseManagementSystem);
+                    TeacherInCourse(scanner, courseManagementSystem);
                     break;
                 case 5:
-                    hienThiSinhVienTrongKhoaHoc(scanner, courseManagementSystem);
+                    showListStudentInCourse(scanner, courseManagementSystem);
                     break;
                 case 6:
                     courseManagementSystem.printCourseDetails();
@@ -51,7 +51,7 @@ public class Main {
     }
 
     // Chức năng thêm khóa học
-    private static void themKhoaHoc(Scanner scanner, CourseManagementSystem cms) {
+    private static void addCourse(Scanner scanner, CourseManagementSystem cms) {
         System.out.print("Nhap ID khoa hoc: ");
         int courseId = scanner.nextInt();
         scanner.nextLine(); // Đọc bỏ dòng trống sau khi nhập số
@@ -64,7 +64,7 @@ public class Main {
     }
 
     // Chức năng thêm sinh viên vào khóa học
-    private static void themSinhVienVaoKhoaHoc(Scanner scanner, CourseManagementSystem cms) {
+    private static void addStudent(Scanner scanner, CourseManagementSystem cms) {
         System.out.print("Nhap ID khoa hoc: ");
         int courseId = scanner.nextInt();
         scanner.nextLine(); // Đọc bỏ dòng trống
@@ -80,7 +80,7 @@ public class Main {
     }
 
     // Chức năng thêm giáo viên
-    private static void themGiaoVien(Scanner scanner, CourseManagementSystem cms) {
+    private static void addTeacher(Scanner scanner, CourseManagementSystem cms) {
         System.out.print("Nhap ID giao vien: ");
         String teacherId = scanner.nextLine();
         System.out.print("Nhap ten giao vien: ");
@@ -92,7 +92,7 @@ public class Main {
     }
 
     // Chức năng phân công giáo viên cho khóa học
-    private static void phanCongGiaoVienChoKhoaHoc(Scanner scanner, CourseManagementSystem cms) {
+    private static void TeacherInCourse(Scanner scanner, CourseManagementSystem cms) {
         System.out.print("Nhap ID khoa hoc: ");
         int courseId = scanner.nextInt();
         scanner.nextLine(); // Đọc bỏ dòng trống
@@ -104,7 +104,7 @@ public class Main {
     }
 
     // Chức năng hiển thị danh sách sinh viên trong khóa học
-    private static void hienThiSinhVienTrongKhoaHoc(Scanner scanner, CourseManagementSystem cms) {
+    private static void showListStudentInCourse(Scanner scanner, CourseManagementSystem cms) {
         System.out.print("Nhap ID khoa hoc: ");
         int courseId = scanner.nextInt();
         scanner.nextLine(); // Đọc bỏ dòng trống
@@ -119,4 +119,5 @@ public class Main {
             System.out.println("Khong tim thay khoa hoc hoac chua co sinh vien nao ghi danh.");
         }
     }
+
 }
