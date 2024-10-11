@@ -53,7 +53,15 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+<<<<<<< HEAD
     &quot;last_opened_file_path&quot;: &quot;C:/VJET_Y2/BTL/FIT4007_CourseManagement&quot;,
+=======
+<<<<<<< HEAD
+    &quot;last_opened_file_path&quot;: &quot;D:/LTHDT/FIT4007_CourseManagement&quot;,
+=======
+    &quot;last_opened_file_path&quot;: &quot;C:/VJET_Y2/VJET_HDT/BTL/FIT4007_CourseManagement&quot;,
+>>>>>>> f0352b43cabe3eb1b0d6ee8f1c2e44644bf2f540
+>>>>>>> c4f3f6a0f1b3e7c51a0005fd09c214248ff11154
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -63,6 +71,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+<<<<<<< HEAD
+=======
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,6 +81,7 @@
       </set>
     </attachedChunks>
   </component>
+>>>>>>> f0352b43cabe3eb1b0d6ee8f1c2e44644bf2f540
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
