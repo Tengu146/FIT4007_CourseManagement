@@ -33,19 +33,33 @@ public class Course {
     }
 
     // Setter cho tên giảng viên
-    public void setInstructor(String instructor) {
+    public void setTeacher(String instructor) {
         this.instructor = instructor;
     }
 
-    // Thêm sinh viên vào danh sách của khóa học
-    public void addStudent(Student student) {
-        studentList.add(student);
-    }
+
 
     // Lấy danh sách sinh viên đã ghi danh
     public List<Student> getStudentList() {
         return studentList;
     }
+
+    // Thêm sinh viên vào danh sách
+    public void addStudent(Student student) {
+        studentList.add(student);
+    }
+
+    // Xóa sinh viên khỏi danh sách
+    public void removeStudent(Student student) {
+        if (studentList.contains(student)) {
+            studentList.remove(student);
+            System.out.println("Đã xóa sinh viên: " + student.getStudentName());
+        } else {
+            System.out.println("Sinh viên không tồn tại trong khóa học.");
+        }
+    }
+
+
 
     @Override
     public String toString() {
