@@ -5,11 +5,14 @@ public class CourseManagementSystem {
     private List<Course> courses;
     private List<Student> students;
     private List<Teacher> teachers;
+    private Student.Timetable timetable;  // Thêm thuộc tính để quản lý lịch học
+
 
     public CourseManagementSystem() {
         this.courses = new ArrayList<>();
         this.students = new ArrayList<>();
         this.teachers = new ArrayList<>();
+        timetable = new Student.Timetable();  // Khởi tạo timetable
     }
 
     // Thêm khóa học vào hệ thống
@@ -120,4 +123,27 @@ public class CourseManagementSystem {
     public List<Course> getCourses() {
         return courses;
     }
+
+    // Thêm hoặc cập nhật lịch học cho khóa học
+    public void setCourseSchedule(int courseId, String dayOfWeek, String startTime, String endTime) {
+        Course course = findCourseById(courseId);
+        if (course != null) {
+            Schedule schedule = new Schedule(dayOfWeek, startTime, endTime);
+            timetable.addOrUpdateSchedule(courseId, schedule);
+        } else {
+            System.out.println("Khóa học không tồn tại.");
+        }
+    }
+
+    // Xóa lịch học của một khóa học
+    public void removeCourseSchedule(int courseId) {
+        timetable.removeSchedule(courseId);
+    }
+
+    // Hiển thị toàn bộ lịch học
+    public void displayAllSchedules() {
+        timetable.displayAllSchedules();
+    }
+
+
 }

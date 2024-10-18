@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e2a4df4-f37c-4f3c-ac5a-1f3f0430d197" name="Changes" comment=" viet Update">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ScheduleEntry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Course_Management/CourseManagementSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Course_Management/CourseManagementSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Course_Management/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Course_Management/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Course_Management/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Course_Management/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CourseManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CourseManagementSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +50,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2mBsbGI1geOXgz1JsHmfCHDF1YS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,16 +61,10 @@
   &quot;keyToString&quot;: {
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-
-    &quot;last_opened_file_path&quot;: &quot;C:/VJET_Y2/BTL/FIT4007_CourseManagement&quot;,
-
-
-    &quot;last_opened_file_path&quot;: &quot;D:/LTHDT/FIT4007_CourseManagement&quot;,
-
     &quot;last_opened_file_path&quot;: &quot;C:/VJET_Y2/VJET_HDT/BTL/FIT4007_CourseManagement&quot;,
-
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -71,6 +74,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -108,7 +116,9 @@
       <workItem from="1728375768951" duration="7000" />
       <workItem from="1728606341209" duration="677000" />
       <workItem from="1728607079826" duration="1833000" />
-      <workItem from="1728994563969" duration="1249000" />
+      <workItem from="1728994563969" duration="1405000" />
+      <workItem from="1729233559973" duration="710000" />
+      <workItem from="1729234300781" duration="1150000" />
     </task>
     <servers />
   </component>
@@ -131,7 +141,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>183</line>
+          <line>212</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

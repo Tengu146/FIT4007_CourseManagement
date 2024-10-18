@@ -20,6 +20,8 @@ public class Main {
             System.out.println("8. Xoa khoa hoc");                // Chức năng mới
             System.out.println("9. Xoa giao vien");               // Chức năng mới
             System.out.println("10. Hien thi danh sach khoa hoc"); // Chức năng mới
+            System.out.println("11. Thiet lap lich hoc cho khoa hoc");
+            System.out.println("12. Hien thi tat ca cac lich hoc");
             System.out.println("0. Thoat");
             System.out.print("Nhap lua chon: ");
             choice = scanner.nextInt();
@@ -55,6 +57,12 @@ public class Main {
                     break;
                 case 10:
                     hienThiDanhSachKhoaHoc(courseManagementSystem);
+                    break;
+                case 11:
+                    thietLapLichHoc(scanner, courseManagementSystem);
+                    break;
+                case 12:
+                    hienThiTatCaLichHoc(courseManagementSystem);
                     break;
                 case 0:
                     System.out.println("Ket thuc chuong trinh!");
@@ -179,5 +187,26 @@ public class Main {
         } else {
             System.out.println("Khong co khoa hoc nao trong he thong.");
         }
+    }
+
+    private static void thietLapLichHoc(Scanner scanner, CourseManagementSystem cms) {
+        System.out.print("Nhap ID khoa hoc: ");
+        int courseId = scanner.nextInt();
+        scanner.nextLine();  // Đọc bỏ dòng trống sau khi nhập số
+
+        System.out.print("Nhap ngay hoc (vi du: Thu Hai): ");
+        String dayOfWeek = scanner.nextLine();
+        System.out.print("Nhap gio bat dau (vi du: 08:00): ");
+        String startTime = scanner.nextLine();
+        System.out.print("Nhap gio ket thuc (vi du: 10:00): ");
+        String endTime = scanner.nextLine();
+
+        cms.setCourseSchedule(courseId, dayOfWeek, startTime, endTime);
+        System.out.println("Da thiet lap lich hoc thanh cong!");
+    }
+
+    private static void hienThiTatCaLichHoc(CourseManagementSystem cms) {
+        System.out.println("Tat ca cac lich hoc:");
+        cms.displayAllSchedules();
     }
 }
